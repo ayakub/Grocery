@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots li.slick-active button:before {
+  color: #881798;
+}
+.horizontal-slider {
+  background-color: #ffc83d;
+  width: 100%;
+  height: 10px;
+  border-radius: 50px;
+}
+.example-thumb-1 {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  top: -7px;
+  color: white;
+  padding: 1px;
+}
+.slick-list {
+  padding-bottom: 24px;
+}
+.example-thumb-0 {
+  top: -7px;
+  background-color: green;
+  width: 30px;
+  color: white;
+  padding: 1px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+}
+.App > div {
+  background-color: green;
+
+  background-color: #fff;
+  color: #fff;
+  color: #3498db;
+  text-align: center;
+}
+.slick-dots {
+  bottom: 25px;
+}
+.slick-dots li.slick-active button:before {
+  color: green;
+  width: 15px;
+}
+.slcik button {
+  border: 1px solid red;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #881798;
+}
+ul {
+  cursor: pointer;
+}
